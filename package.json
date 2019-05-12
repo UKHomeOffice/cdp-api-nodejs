@@ -1,0 +1,27 @@
+{
+  "name": "cdp-api",
+  "version": "0.1.0",
+  "description": "Common Data Platform API",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node .",
+    "start:dev": "nodemon -w src -w node_modules .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UKHomeOffice/cdp-api-nodejs"
+  },
+  "author": "Daniel A.C. Martin <npm@daniel-martin.co.uk> (http://daniel-martin.co.uk/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UKHomeOffice/cdp-api-nodejs/issues"
+  },
+  "homepage": "https://github.com/UKHomeOffice/cdp-api-nodejs#readme",
+  "dependencies": {
+    "lev-restify": "^0.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
